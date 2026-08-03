@@ -53,7 +53,7 @@ int main() {
 
   std::cout << "\n\n";
 
-  std::cout << "Do-While Loop\n";
+  std::cout << "Do-While Loop (Runs once even if condition is false)\n";
 
   int c = 10;
 

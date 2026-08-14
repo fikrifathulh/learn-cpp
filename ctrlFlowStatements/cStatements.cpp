@@ -1,13 +1,13 @@
 #include <iostream>
 
 int main() {
-  // if
+  // if (An if statement executes a block of code only if a condition evaluates to true)
   int age = 20;
   if (age >= 18) {
     std::cout << "Adult" << "\n";
   }
 
-  // if-else
+  // if-else (When the condition is false, execute another block)
   int temp = 15;
   if (temp >= 20) {
     std::cout << "Warm\n";
@@ -15,7 +15,7 @@ int main() {
     std::cout << "Cold\n";
   }
 
-  //else-if
+  //else-if (Use this when there are several possible conditions)
   int score = 87;
 
   if (score >= 90) {
@@ -28,20 +28,20 @@ int main() {
     std::cout << "Fail\n";
   }
 
-  //switch
+  //switch (A switch compares one value against several constant values)
   int day = 3;
 
   switch (day) {
     case 1:
       std::cout << "Monday\n";
-      break;
+      break; // without break, execution continues into the next case
     case 2:
       std::cout << "Tuesday\n";
       break;
     case 3:
       std::cout << "Wednesday\n";
       break;
-    default:
+    default: // default executed when no case matches
       std::cout << "Unknown day\n";
   }
 

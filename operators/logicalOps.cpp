@@ -5,7 +5,7 @@ int main() {
   int y = 3;
 
   std::cout << (x > y && x <= 5) << "\n";
-  // returns true (1) because 5 is greater than 3 AND 5 is less than equal 5
+  // returns true (1) because x is greater than y AND x is less than equal 5
 
   std::cout << (x > y || x < 5) << "\n";
   // returns true (1) because one of the conditions are true

@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-  // goto
+  // goto (Performs an unconditional jump to a labeled statement within the same function)
   int count = 1;
 
   loop:
